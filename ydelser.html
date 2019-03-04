@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <title>Hesteskomageren - Ydelser</title>
+    <meta name="description" content="De ydelser som Hesteskomageren tilbyder">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="https://use.typekit.net/kpi0lnw.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>   
+        <header>
+            <div class="navbar">
+                <a href="index.html"><div class="logo_container"><img src="images/hsm_logo_dark.svg" alt="logo" class="logo">
+                    <img src="images/hsm_typeface_dark.svg" alt="hesteskomageren" class="logo_typeface"></div></a>
+                    <div><i onclick="menuToggle()"><img class="burger" src="images/hsm_burger_icon.svg" alt="burger"></i></div>
+                </div>
+                <nav id="menu-toggle">
+                    <div class="laptop-menu">
+                    <a href="index.html">    <div class="logo_container"><img src="images/hsm_logo_dark.svg" alt="logo" class="laptop_logo">
+                            <img src="images/hsm_typeface_dark.svg" alt="hesteskomageren" class="laptop_logo_typeface"></div></a>
+                        </div>
+                        <ul class="menu">
+                            <li class="menuentry menuentry_black"><a href="index.html">Forside</a></li>
+                            <li class="menuentry menuentry_black"><a href="ydelser.html">Ydelser</a></li>
+                            <li class="menuentry menuentry_black last-menuentry"><a href="om-firmaet.html">Om</a></li>
+                        </ul>
+                    </nav>
+                </header>  
+            <main id="ydelse-wrapper">
+                <h1>Ydelser</h1>
+                <section class="accordion-container">
+                    <section class="ydelse-tekst">
+                    <h2>Hos Hesteskomageren tilbydes følgende ydelser:</h2>
+                    <ul class="bullet-list">
+                        <li>Individuel, professionel beskæring ved registreret beslagsmed</li>
+                        <li>Skoning med hhv 2 eller 4 sko, ringsko, specialsko, sål og pakning mm.</li>
+                        <li>Skoning af travheste</li>
+                        <li>Tilbyder desuden beskæring og skoning af tunge hesteracer mod nobelt tillæg</li>
+                        <li>Samarbejde med hestens dyrlæge</li>
+                    </ul>
+
+                    <img src="images/hesteben.jpg" alt="Hesteben">
+                    </section>
+                    <aside class="accordion-full">
+                    <button class="accordion">Sko, 4 ben<span class="right-price">1250,- | <i class="fa fa-caret-down"></i></span></button>
+                    <div class="panel">
+                        <p>4 sko* inklusiv beskæring på alle ben.<br>Behandlingstid: 45-60 minutter</p>
+                        <p class="lille-ydelse">Skopåsætning er altid inkl. forudgående beskæring</p>
+                    </div>
+                    <button class="accordion">Sko, 2 ben<span class="right-price">850,- | <i class="fa fa-caret-down"></i></span></button>
+                    <div class="panel">
+                        <p>2 sko* inklusiv beskæring på bagben.<br>Behandlingstid: 20-35 minutter</p>
+                        <p class="lille-ydelse">Skopåsætning er altid inkl. forudgående beskæring</p>
+                    </div>
+                    <button class="accordion">Beskæring, 4 ben<span class="right-price">450,- | <i class="fa fa-caret-down"></i></span></button>
+                    <div class="panel">
+                        <p>En normal beskæring uden skopåsættelse.<br>Behandlingstid: 15-25 minutter.</p>
+                    </div>
+                    <br><p>Alle priser er inklusiv moms.<br><br>Herud over er der ekstra gebyr på sål, pakning, ringsko, kiler, mordax mv.<br>Selvom der er sat et estimat på behandlingen, så afhænger tidsforbruget altid af hestens temperament og lydighed.
+                    </p>
+                    <p><br>
+                        Bestilling af tider aftales gerne gennem Messenger på Facebook, på sms eller ved at ringe til Hesteskomageren. Læg gerne en besked, så bliver der ringet tilbage.
+                    </p>
+                    <p><br>Følg gerne Hesteskomageren på Facebook og Instagram</p>
+                    </aside>
+                </section>
+                <br>
+                
+            </main>
+            <div class="divider-black"></div>
+            <footer>
+            <div class="kontakt-info">
+                <p>TLF:<br><a href="tel:+4560171752" class="phone_link">+45 60 17 17 52</a><br><br>Adresse: <br>Firhøjevej 13<br> 8963 Auning</p><br>
+            </div>
+            <div class="reg-smed">
+                <img src="images/reg-beslagsmed.png" alt="registeret beslagsmed">
+                <p id="regnr">Reg. Nr. 416</p>
+            </div>
+            <div class="socialmedia_wrapper">
+                <ul class="socialmedia_container">
+                    <li><a target="_blank" href="https://www.facebook.com/Hesteskomageren"><img class="socialmedia" id="facebook" src="images/fb_icon.svg" alt="facebook"></a></li>
+                    <li><a target="_blank" href="https://instagram.com/hesteskomageren?utm_source=ig_profile_share&igshid=fb5yh71aygo"><img class="socialmedia" id="instagram" src="images/ig_icon.svg" alt="instagram"></a></li>
+                    <li><a target="_blank" href="https://www.messenger.com/t/Hesteskomageren"><img class="socialmedia" id="messenger" src="images/msgr_icon.svg" alt="messenger"></a></li>
+                </ul>
+            </div>
+        </footer>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            function menuToggle() {
+                var x = document.getElementById("menu-toggle");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+
+            function myFunction() {
+                var x = document.getElementById("expanded-info");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+
+
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight){
+                      panel.style.maxHeight = null;
+                      panel.style.borderBottom = "none"
+                  } else {
+                      panel.style.maxHeight = panel.scrollHeight + "px";
+                      panel.style.borderBottom = "solid 2px #000"
+                  } 
+              });
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: goodlife-sans-condensed, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+
+}
+.bigphoto{
+    background-image: url(../images/bigphoto_mobil.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.fa-bars{
+    color: white;
+
+}
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #fafafa;
+}
+.logo{
+    height:50px;
+}
+.logo_typeface{
+    max-height:40px;
+    width:60%;
+    margin-left:10px;
+}
+.burger{
+    height:40px;
+}
+.logo_container{
+    display:flex;
+    align-items: center;
+}
+#menu-toggle {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.laptop-menu{
+    display: none;
+}
+.divider{
+    width:100%;
+    height: 20px;
+    margin-top:-10px;
+    background-image: url(../images/hsm_divider_light.svg);
+}
+.divider-black{
+    width:100%;
+    background-color:#fff;
+    height: 30px;
+    margin-bottom: -10px;
+    background-image: url(../images/hsm_divider.svg);
+}
+a {
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menuentry {
+    border-bottom: solid 1px darkgrey;
+    text-align: center;
+    padding-top: 5px
+    color: white;
+    
+}
+.menuentry-black a{
+    color: black;
+}
+.menuentry-white a{
+    color: white;
+}
+.menuentry a{
+    font-family: "goodlife-sans-condensed", sans-serif;
+    font-size: 2em;
+}
+/* Main content */
+main {
+ margin: 0 5px 0 5px;
+}
+.behandlinger{
+    width: 100%;
+}
+#expanded-info{
+    display:none;
+}
+
+.accordion {
+    background-color: #fafafa;
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #000;
+    text-align: left;
+    position:relative;
+    outline: none;
+    font-size: 2em;
+    transition: 0.4s;
+    font-family: "goodlife-sans-condensed", sans-serif;
+}
+.ydelse-tekst h1{
+    font-size: 2em;
+
+}
+.ydelse-tekst img{
+    width: 100%;
+}
+.ikon-andet{
+    color:black;
+}
+.accordion-container{
+    display:flex;
+    flex-direction: column-reverse;
+}
+.accordion-container h2{
+    margin: 20px 0;
+}
+.bullet-list{
+    list-style-type: circle;
+    margin-left:20px;
+    margin-bottom: 30px
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.right-price{
+    position:absolute;
+    right:20px;
+    top:14px;    
+}
+.anmeldelse-tekst{
+        font-style: italic;    
+    }
+.tekstindhold{
+   margin: 5px 5px 20px 5px;
+}
+.profile{
+    background-color: #DDD;
+    padding: 10px;
+}
+.profile img{
+    width:100%;
+}
+/* footer content */
+footer{
+    background-color: #282828;
+    display:flex;
+    color:#fff;
+    justify-content: space-between;
+}
+footer div{
+    margin:10px;
+}
+.socialmedia_container li{
+    display:inline;
+    float:right;
+}
+
+.socialmedia{
+    width:20px;
+    margin: 0 auto;
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.forfatter{
+    text-align: right;
+}
+p{
+font-family: 'Open Sans Condensed', sans-serif;
+}
+.om-tekst img{
+    width: 100%;
+    margin-top: 20px
+}
+.om-tekst img:last-child{
+    margin-bottom:15px;
+}
+.reg-smed img{
+    width:50%;
+    margin: 0 auto;
+    display:flex;
+}
+.kontakt-info{
+    flex:85px 0 0;
+}
+.socialmedia_wrapper{
+    flex: 20px 0 0;
+}
+#facebook{
+    background-color: #2467B6;
+}
+#instagram{
+    background-color: #FC2D78;
+}
+#messenger{
+    background-color: #0085FF;
+}
+#regnr{
+    text-align: center;
+}
+.phone_link{
+    color:white;
+    border-bottom: solid 1px;
+}
+
+@media only screen and (min-width: 1200px){
+    /* Header */
+    .bigphoto{
+        background-image: url(../images/bigphoto_laptop.jpg);
+    }
+    #menu-toggle{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menuentry{
+        display: inline;
+        border: none;
+    }
+    .menu{
+        margin-top: 50px;
+    }
+    .menuentry a {
+        margin: 30px;
+        padding-top: 30px;
+        font-size: 3.5em;
+    }
+    .last-menuentry{
+        margin-right: 30px;
+    }
+    .burger-container{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    .laptop-menu{
+        display: inline;
+    }
+    .laptop_logo{
+        height: 75px;
+        margin:30px 0 0 30px;
+    }
+    .laptop_logo_typeface{
+        height: 60px;
+        margin-left: 10px;
+        margin-top: 30px
+    }
+    
+    /* Main */
+    .forsideindhold{
+        display: flex;
+        justify-content: space-around;
+    }
+    .tekstindhold{
+        width:30%;
+        
+    }
+    .anmeldelser{
+        width:25%;
+       
+    }
+    .forfatter{
+        text-align:right;
+    }
+    .accordion-container{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top:30px;
+    }
+    .ydelse-tekst{
+        width:30%;
+    }
+    .ydelse-tekst h1{
+        font-size: 2em;
+    }
+    .accordion-full{
+        width:25%;
+    }
+    /* Forside */
+
+    /* Ydelser */
+    #ydelse-wrapper h1{
+        position:relative;
+        left:11.2%;
+        margin-top: 20px;
+        width: 30%;
+    }
+    /* Om firmaet */
+    .om-michael{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .om-tekst{
+        width: 30%;
+
+    }
+    .om-tekst h1{
+        font-size: 2em;
+    }
+    .profile{
+        width: 25%;
+        margin-bottom: 20px;
+    }
+    .profile h1{
+        font-size: 2em;
+    }
+    
+    /* Footer */
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .reg-smed{
+        width:10%;
+    }
+    .reg-smed img{
+        width:50%;
+    }
+    .socialmedia_container{
+        display: flex;
+        flex-direction: column;
+        width:auto;
+
+    }
+    .socialmedia{
+        width: 30px;
+    }
+    p{
+        font-family: 'Open Sans Condensed', sans-serif;
+
+    }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <title>Hesteskomageren - Påsættelse og beskæring</title>
+    <meta name="description" content="Hesteskomageren Michael tilbyder skopåsættelse og beskæring af dine heste">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kpi0lnw.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+ <section class="bigphoto">
+    <header>
+        <div class="navbar">
+         <a href="index.html"> <div class="logo_container"><img src="images/hsm_logo_light.svg" alt="logo" class="logo">
+            <img src="images/hsm_typeface_light.svg" alt="hesteskomageren" class="logo_typeface"></div></a>
+            <div class="burger-container"><i onclick="menuToggle()"><img class="burger" src="images/hsm_burger_icon_light.svg" alt="burger"></i></div>
+        </div>
+        <nav id="menu-toggle">
+            <div class="laptop-menu">
+               <a href="index.html">   <div class="logo_container"><img src="images/hsm_logo_light.svg" alt="logo" class="laptop_logo">
+                <img src="images/hsm_typeface_light.svg" alt="hesteskomageren" class="laptop_logo_typeface"></div></a>
+            </div>
+            <ul class="menu">
+                <li class="menuentry menuentry-white"><a href="index.html">Forside</a></li>
+                <li class="menuentry menuentry-white"><a href="ydelser.html">Ydelser</a></li>
+                <li class="menuentry menuentry-white last-menuentry"><a href="om-firmaet.html">Om</a></li>
+            </ul>
+        </nav>
+    </header>
+</section>
+<div class="divider"></div>
+<main class="forsideindhold">
+    <section class="tekstindhold"><h1>Hvem er Hesteskomageren</h1>
+        <p>Hesteskomageren er en nyopstartet virksomhed af beslagsmed Michael Holme Møller-Madsen. Michael blev uddannet som beslagsmed i maj 2018, og allerede nu er  virksomheden godt kørende, da Hesteskomageren har de bedste kunder.</p><br>
+        <p>Hesteskomageren går op i at yde den bedste service, at give den højeste kvalitet, at være ærlig, at sørge for sikkerheden er i top - for hest, ejer og beslagsmed, at have konkurrencedygtige priser, at have glade kunder og at sørge for sunde hestehove.</p>
+    </section>
+        <aside class="anmeldelser">
+            <h1>Det siger kunderne</h1>
+            <p class="anmeldelse-tekst">“Super godt arbejde og flotte skoninger på alle vores heste. Michael kommer altid som aftalt, og yder fantastisk service.”
+            </p><p class="forfatter">- Sofie Jensen</p><br>
+            <p class="anmeldelse-tekst">“Super behagelig at have på besøg af. Tager sig godt af hestene og laver et fantastisk arbejde. Kommer altid som lovet, og det er så fedt at have en aftale om næste gang.”</p><p class="forfatter">- Heidi Petersen</p><br>
+            <p class="anmeldelse-tekst">“Kan kun anbefale Michael! Jeg har prøvet så mange forskellige smede, og har aldrig været helt tilfreds før nu! Michael er der altid til den lovede tid, tager sig god tid til hestene, giver altid en god snak og han er bestemt ikke pengegrisk!”</p><p class="forfatter">- Josephine Svendsen</p><br>
+        </aside>
+        </main>
+        <div class="divider-black"></div>
+        <footer>
+            <div class="kontakt-info">
+                <p>TLF:<br><a href="tel:+4560171752" class="phone_link">+45 60 17 17 52</a><br><br>Adresse: <br>Firhøjevej 13<br> 8963 Auning</p><br>
+            </div>
+            <div class="reg-smed">
+                <img src="images/reg-beslagsmed.png" alt="registeret beslagsmed">
+                <p id="regnr">Reg. Nr. 416</p>
+            </div>
+            <div class="socialmedia_wrapper">
+                <ul class="socialmedia_container">
+                    <li><a target="_blank" href="https://www.facebook.com/Hesteskomageren"><img class="socialmedia" id="facebook" src="images/fb_icon.svg" alt="facebook"></a></li>
+                    <li><a target="_blank" href="https://instagram.com/hesteskomageren?utm_source=ig_profile_share&igshid=fb5yh71aygo"><img class="socialmedia" id="instagram" src="images/ig_icon.svg" alt="instagram"></a></li>
+                    <li><a target="_blank" href="https://www.messenger.com/t/Hesteskomageren"><img class="socialmedia" id="messenger" src="images/msgr_icon.svg" alt="messenger"></a></li>
+                </ul>
+            </div>
+        </footer>
+    <script>
+        function menuToggle() {
+            var x = document.getElementById("menu-toggle");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+    </body>
+    </html>

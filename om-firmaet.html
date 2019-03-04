@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <title>Hesteskomageren - Om</title>
+    <meta name="description" content="Alt om hvad Hesteskomageren handler om">
+    <link rel="icon" type="images/png" href="images/hsm_logo_dark.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kpi0lnw.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="index.html"><div class="logo_container"><img src="images/hsm_logo_dark.svg" alt="logo" class="logo">
+                <img src="images/hsm_typeface_dark.svg" alt="hesteskomageren" class="logo_typeface"></div></a>
+                <div><i onclick="menuToggle()"><img class="burger" src="images/hsm_burger_icon.svg" alt="burger"></i></div>
+            </div>
+            <nav id="menu-toggle">
+                <div class="laptop-menu">
+                 <a href="index.html"> <div class="logo_container"><img src="images/hsm_logo_dark.svg" alt="logo" class="laptop_logo">
+                    <img src="images/hsm_typeface_dark.svg" alt="hesteskomageren" class="laptop_logo_typeface"></div></a>
+                </div>
+                <ul class="menu">
+                    <li class="menuentry menuentry_black"><a href="index.html">Forside</a></li>
+                    <li class="menuentry menuentry_black"><a href="ydelser.html">Ydelser</a></li>
+                    <li class="menuentry menuentry_black last-menuentry"><a href="om-firmaet.html">Om</a></li>
+                </ul>
+            </nav>
+        </header>  
+        <main class="om-michael">
+            <section class="om-tekst">
+                <h1>Om Hesteskomageren</h1>
+                <p>Hesteskomageren er en beslagsmed, hvor der udføres et grundigt og professionelt stykke håndværk.
+                Her prioriteres hver enkelt hests behov, der lyttes til hver enkelte ejers ønsker, og der rådgives og findes den mest optimale løsning for beskæring og skoning. Ofte også i samarbejde med hesteejers dyrlæge.</p><br>
+                <p>Hos Hesteskomageren er kvalitet og service i højsædet, og der stræbes altid efter sunde hestehove,  glade kunder, ærlighed og sikkerhed, family comes first!
+                Så hvis du har brug for en ansvarsbevidst beslagsmed, som er dygtig og udfører et omsorgsfuld og proffesionelt stykke arbejde, så er det Hesteskomageren du skal ringe til.
+                </p><br>
+                <img src="images/beskaering.jpg" alt="Heste beskæring">
+                <img src="images/sliber.jpg" alt="Sliber skoen">
+            </section>
+            <aside class="profile">
+                <img src="images/michael.jpg" alt="Billede af michael">
+                <h1>Michael Holme Møller-Madsen</h1>
+                <p>Bag selve navnet Hesteskomageren finder du Michael, som er ejeren af virksomheden. Michael er oprindeligt uddannet klejnsmed, efterfølgende har han videreuddannet, han og blev i maj 2018 udlært beslagsmed.</p><br>
+                <p>Når du får besøg af Michael kan du forvente at møde en mand, der kommer til tiden, en mand der er rolig og har et god tag på heste i alle størrelser. Han har ry for at være grundig og have en god tålmodighed når det kommer til nye heste.</p><br>
+                <p>Når Michael har været på besøg, kan du forvente at der er ydet den bedste pleje og skoning af din hest, at der givet gode råd og udvist omsorg for din bedste ven.</p>
+            </aside>
+        </main>
+        <div class="divider-black"></div>
+        <footer>
+            <div class="kontakt-info">
+                <p>TLF:<br><a href="tel:+4560171752" class="phone_link">+45 60 17 17 52</a><br><br>Adresse: <br>Firhøjevej 13<br> 8963 Auning</p><br>
+            </div>
+            <div class="reg-smed">
+                <img src="images/reg-beslagsmed.png" alt="registeret beslagsmed">
+                <p id="regnr">Reg. Nr. 416</p>
+            </div>
+            <div class="socialmedia_wrapper">
+                <ul class="socialmedia_container">
+                    <li><a target="_blank" href="https://www.facebook.com/Hesteskomageren"><img class="socialmedia" id="facebook" src="images/fb_icon.svg" alt="facebook"></a></li>
+                    <li><a target="_blank" href="https://instagram.com/hesteskomageren?utm_source=ig_profile_share&igshid=fb5yh71aygo"><img class="socialmedia" id="instagram" src="images/ig_icon.svg" alt="instagram"></a></li>
+                    <li><a target="_blank" href="https://www.messenger.com/t/Hesteskomageren"><img class="socialmedia" id="messenger" src="images/msgr_icon.svg" alt="messenger"></a></li>
+                </ul>
+            </div>
+        </footer>
+<script>
+
+    function menuToggle() {
+        var x = document.getElementById("menu-toggle");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+</body>
+</html>
